@@ -20,7 +20,7 @@ Projeto prático desenvolvido em C para a disciplina de Estruturas de Dados, foc
 ```
 ---
 
-Tecnologias & Pré-requisitos
+## Tecnologias & Pré-requisitos
 
 - Linguagem: C (padrão C99 ou superior)
 
@@ -30,7 +30,7 @@ Tecnologias & Pré-requisitos
 
 ---
 
-Como Compilar e Executar
+## Como Compilar e Executar
 1. Compilação
 No terminal, dentro do diretório do projeto, execute:
 
@@ -52,7 +52,10 @@ Caso o programa espere o nome do arquivo de entrada via parâmetro:
 
 Bash
 ./programa entrada.txt
-📄 Licença
+
+---
+
+##  Licença
 Projeto desenvolvido para fins acadêmicos.
 
 
