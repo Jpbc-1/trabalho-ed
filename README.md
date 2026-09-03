@@ -30,7 +30,7 @@ Projeto prático desenvolvido em C para a disciplina de Estruturas de Dados, foc
 
 ---
 
-## ⚙️ Como Compilar e Executar
+##  Como Compilar e Executar
 
 Para compilar o projeto garantindo que todas as dependências e módulos sejam vinculados corretamente, execute o comando abaixo no terminal:
 
