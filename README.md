@@ -30,28 +30,25 @@ Projeto prático desenvolvido em C para a disciplina de Estruturas de Dados, foc
 
 ---
 
-## Como Compilar e Executar
-1. Compilação
-No terminal, dentro do diretório do projeto, execute:
+## ⚙️ Como Compilar e Executar
 
-Bash
+Para compilar o projeto garantindo que todas as dependências e módulos sejam vinculados corretamente, execute o comando abaixo no terminal:
+
+```bash
 gcc -Wall -Wextra -std=c99 main.c produtos.c estruturas.c -o programa
+```
 
-2. Execução
-Execute o binário gerado:
+Em seguida, execute a aplicação gerada:
 
-Linux / macOS:
+* **Linux / macOS:**
+  ```bash
+  ./programa
+  ```
+* **Windows (CMD / PowerShell):**
+  ```powershell
+  .\programa.exe
+  ```
 
-Bash
-./programa
-Windows:
-
-DOS
-programa.exe
-Caso o programa espere o nome do arquivo de entrada via parâmetro:
-
-Bash
-./programa entrada.txt
 
 ---
 
