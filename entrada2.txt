@@ -1,0 +1,17 @@
+SIMULADOR DE LINHA DE PRODUCAO
+SIMULACAO linha_filamento_pet 1337 15000
+PRODUTOS 120 4 Filamento-PET
+LINHA_PRODUCAO 4
+ETAPA 1 3 10 0.01 Preparacao_Flakes
+ATIVIDADE 1 2 0.01 Lavar_garrafas
+ATIVIDADE 2 3 0.01 Secar_garrafas
+ATIVIDADE 3 4 0.03 Moer_plastico
+ETAPA 2 2 3 0.02 Extrusao_Termica
+ATIVIDADE 1 8 0.06 Derreter_material
+ATIVIDADE 2 6 0.04 Puxar_filamento
+ETAPA 3 2 6 0.01 Resfriamento
+ATIVIDADE 1 4 0.01 Banho_termico
+ATIVIDADE 2 3 0.01 Secagem_a_ar
+ETAPA 4 2 5 0.02 Bobinamento
+ATIVIDADE 1 5 0.02 Enrolar_carretel
+ATIVIDADE 2 4 0.03 Inspecao_optica

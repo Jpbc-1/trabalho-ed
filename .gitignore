@@ -1,0 +1,7 @@
+# Entra na pasta do projeto
+cd "Trabalho ED"
+
+# Cria um .gitignore básico para projetos em C
+echo "*.o" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "*.out" >> .gitignore
