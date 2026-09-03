@@ -4,7 +4,7 @@ Projeto prático desenvolvido em C para a disciplina de Estruturas de Dados, foc
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 .
@@ -16,3 +16,45 @@ Projeto prático desenvolvido em C para a disciplina de Estruturas de Dados, foc
 ├── entrada.txt      # Arquivo de dados de teste/exemplo
 ├── entrada2.txt     # Arquivo complementar para testes de carga/casos de borda
 └── README.md
+
+```
+---
+
+Tecnologias & Pré-requisitos
+
+- Linguagem: C (padrão C99 ou superior)
+
+- Compilador: gcc (ou clang)
+
+- Terminal/Shell: Linux, macOS ou Windows (via WSL / MinGW / Git Bash)
+
+---
+
+Como Compilar e Executar
+1. Compilação
+No terminal, dentro do diretório do projeto, execute:
+
+Bash
+gcc -Wall -Wextra -std=c99 main.c produtos.c estruturas.c -o programa
+
+2. Execução
+Execute o binário gerado:
+
+Linux / macOS:
+
+Bash
+./programa
+Windows:
+
+DOS
+programa.exe
+Caso o programa espere o nome do arquivo de entrada via parâmetro:
+
+Bash
+./programa entrada.txt
+📄 Licença
+Projeto desenvolvido para fins acadêmicos.
+
+
+---
+
